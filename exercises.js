@@ -13,7 +13,7 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
     
     Console.log the object.
 */
-    var books {
+    var books = {
         title: 'The Obstacle is the Way',
         author: 'Ryan Holiday',
         category: 'Self help',
@@ -36,9 +36,15 @@ console.log(books);
  
  "My dog `name` is `age` year old and likes to `speak` at strangers."
 */ 
+var dog = {
+    name: 'jackie',
+    age: 3,
+    vegeterian: false,
+    color: ['white', 'brown'],
+    speak: 'bark!'
+}
 
-
-
+console.log("2. My dog " + dog.name + " is " + dog.age + " year old and like to " + dog.speak + " at strangers.");
 //An empty object
 
 /*
@@ -53,7 +59,15 @@ console.log(books);
             
   Console.log the object.
 */
+var kicks = {};
 
+kicks.brand = "adidas";
+kicks.color = "cornflower blue";
+kicks.size = 10.5;
+kicks.price = 85;
+kicks.buy = "Now I am a cool kid.";
+
+console.log("3. kicks " + kicks);
 
 /* 
 
@@ -66,6 +80,11 @@ console.log(books);
   console.log the object
 */
 
+var plainBox = {};
+plainBox.color = "blue";
+plainBox.size = 20;
+plainBox.contents = [];
+console.log('4. plainBox ' + plainBox);
 
 /*
 5. Declare a variable named `stockCar` and create the following properties (key-value pairs) to the object:
